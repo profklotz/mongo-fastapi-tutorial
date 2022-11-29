@@ -16,10 +16,10 @@ The following packages have been installed:
 - `dnspython`
 - `python-dotenv`
 
-An [export of the Anaconda environment](req.txt) has been added to the repository. It can be used to install all the
-packages into the current Anaconda environment with the following statement: 
+An [export of the Anaconda environment](req.txt) has been added to the repository. It can be used to create a new
+environment with all the packages using the following statement: 
 
-```$ conda create --name <env> --file <this file>```
+```$ conda create --name <env> --file req.txt```
 
 ## MongoDB Information
 
